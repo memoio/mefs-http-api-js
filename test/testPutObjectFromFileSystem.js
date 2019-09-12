@@ -1,4 +1,4 @@
-var mefsClient = require('mefs-http-client')
+var mefsClient = require('mefs-http-api-js')
 var mefs = mefsClient('localhost', '5001', { protocol: 'http' })
 mefs.lfs.create_bucket("bucket_test_object",function (err, createBucketInfo) {
     if (err) {

@@ -1,10 +1,6 @@
-# MEFS HTTP client
+# MEFS HTTP API
 
 A client library for the MEFS HTTP API, implemented in JavaScript. This client library implements the interface-mefs-core. In addition, this client library implements a set of utility functions.
-
-## Lead Maintainer
-
-[suzakinishi](http://github.com/suzakinishi).
 
 ## Table of Contents
 
@@ -22,7 +18,7 @@ A client library for the MEFS HTTP API, implemented in JavaScript. This client l
 This module uses node.js, and can be installed through npm:
 
 ```shell
-npm install mefs-http-client
+npm install mefs-http-api-js
 ```
 
 We support both the Current and Active LTS versions of Node.js. Please see [nodejs.org](https://nodejs.org/) for what these currently are.
@@ -46,7 +42,7 @@ To interact with the API, you need to have a local daemon running. It needs to b
 ### Importing the module and usage
 
 ```javascript
-var mefsClient = require('mefs-http-client')
+var mefsClient = require('mefs-http-api-js')
 
 // connect to mefs daemon API server
 var mefs = mefsClient('localhost', '5001', { protocol: 'http' }) // leaving out the arguments will default to these values
@@ -68,7 +64,7 @@ Instead of a local installation (and browserification) you may request a remote 
 To always request the latest version, use the following:
 
 ```html
-<script src="https://unpkg.com/mefs-http-client/dist/bundle.js"></script>
+<script src="https://unpkg.com/mefs-http-api-js/dist/bundle.js"></script>
 ```
 
 ### CORS

@@ -9,7 +9,7 @@ const once = require('once')
 const { getRequest } = require('iso-stream-http')
 const streamToValue = require('./stream-to-value')
 const streamToJsonValue = require('./stream-to-json-value')
-const log = require('debug')('mefs-http-client:request')
+const log = require('debug')('mefs-http-api-js:request')
 
 // -- Internal
 

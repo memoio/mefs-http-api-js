@@ -1,10 +1,10 @@
 {
-  "name": "mefs-http-client",
+  "name": "mefs-http-api-js",
   "version": "0.0.64",
-  "description": "A client library for the MEFS HTTP API",
+  "description": "A js client library for the MEFS HTTP API",
   "leadMaintainer": "suzakinishi <ccyansnow@gmail.com>",
   "main": "src/index.js",
-  "license" : "SEE LICENSE IN mefs-http-client",
+  "license": "SEE LICENSE IN mefs-http-api-js",
   "browser": {
     "glob": false,
     "fs": false,
